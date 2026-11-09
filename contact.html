@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex's Website - Contact</title>
+
+  <!-- Bootstrap and Theme CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet">
+</head>
+<body id="top">
+
+  <!-- ==========================
+    HEADER SECTION 
+    =========================== -->
+  <header id="home">
+    <!-- creative menu -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="menu-wrap">
+          <!-- Static Navbar -->
+          <nav class="static-navbar">
+            <div class="nav-container">
+              <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <!-- <i class="fa fa-bars"></i> -->
+              </div>
+              <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="aboutme.html"><i class="fa fa-user"></i>About Me</a></li>
+                <li><a href="school.html"><i class="fa fa-graduation-cap"></i>School</a></li>
+                <li><a href="work.html"><i class="fa fa-briefcase"></i>Work</a></li>
+                <li><a href="hobbies.html"><i class="fa fa-gamepad"></i>Hobbies</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div><!--/row-->
+    </div><!--/container-->
+
+    <!-- Header Image -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <!-- HEADER HEADLINE -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-1 inner">
+            <h1 class="animated fadeInDown">
+              Get In <span style="color:#E04343;">Touch</span>
+            </h1>
+            <h3 class="animated fadeInUp delay-05s"><span>Let's Connect!</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- ==========================
+    CONTACT FORM SECTION  
+    =========================== -->
+    <section class="text-center section-padding" id="contact-form">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <h1 class="arrow">Contact <span>Form</span></h1>
+                  <form id="contactForm" onsubmit="return validateForm()">
+                      <!-- First Name -->
+                      <div class="form-group" id="firstNameGroup">
+                          <label for="firstName">First Name:</label>
+                          <input type="text" id="firstName" name="firstName" class="form-control" required>
+                          <small id="firstNameMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Last Name -->
+                      <div class="form-group" id="lastNameGroup">
+                          <label for="lastName">Last Name:</label>
+                          <input type="text" id="lastName" name="lastName" class="form-control" required>
+                          <small id="lastNameMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Email -->
+                      <div class="form-group" id="emailGroup">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" class="form-control" required>
+                          <small id="emailMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Phone Number -->
+                      <div class="form-group" id="phoneGroup">
+                          <label for="phone">Phone Number:</label>
+                          <input type="text" id="phone" name="phone" class="form-control" required>
+                          <small id="phoneMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Username -->
+                      <div class="form-group" id="usernameGroup">
+                          <label for="username">Username:</label>
+                          <input type="text" id="username" name="username" class="form-control" required>
+                          <small id="usernameMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Password -->
+                      <div class="form-group" id="passwordGroup">
+                          <label for="password">Password:</label>
+                          <input type="password" id="password" name="password" class="form-control" required>
+                          <small id="passwordMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Comments -->
+                      <div class="form-group" id="commentsGroup">
+                          <label for="comments">Comments:</label>
+                          <textarea id="comments" name="comments" class="form-control" rows="5" required></textarea>
+                          <small id="commentsMsg" class="help-block"></small>
+                      </div>
+
+                      <!-- Submit Button -->
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
+                  <!-- Polar Bear GIF under the form -->
+                  <div class="contact-media">
+                      <figure>
+                          <img src="https://tenor.com/view/polar-bear-walking-gif-11306467012004704200.gif" 
+                               alt="Polar Bear" class="contact-gif">
+                          <figcaption>A fun little polar bear gif!</figcaption>
+                      </figure>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <p>All Rights (not) Reserved. &copy; 2025 <a href="http://www.themewagon.com">ThemeWagon</a></p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+</body>
+</html>

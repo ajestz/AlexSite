@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alex's Website - Event Handler</title>
+
+    <!-- Bootstrap and Theme CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+</head>
+<body id="top">
+
+    <!-- ==========================
+      HEADER SECTION 
+      =========================== -->
+      <header id="home">
+          <!-- creative menu -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="menu-wrap">
+             <!-- Static Navbar -->
+            <nav class="static-navbar">
+                <div class="nav-container">
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <!-- <i class="fa fa-bars"></i> -->
+                </div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="aboutme.html"><i class="fa fa-user"></i>About Me</a></li>
+                        <li><a href="school.html"><i class="fa fa-graduation-cap"></i>School</a></li>
+                        <li><a href="work.html"><i class="fa fa-briefcase"></i>Work</a></li>
+                        <li><a href="hobbies.html"><i class="fa fa-gamepad"></i>Hobbies</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+              </div>
+            </div><!--/row-->
+          </div><!--/container-->
+        
+        <!-- Header Image -->
+        <section class="hero" id="hero">
+          <div class="container">
+            <!-- HEADER HEADLINE -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-1 inner">
+                <h1 class="animated fadeInDown">
+                  Alex's <span style="color:#E04343;">Website</span>
+                </h1>
+                <h3 class="animated fadeInUp delay-05s"><span>Account Registration</span></h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- ==========================
+      REGISTRATION SECTION  
+      =========================== -->
+      <section class="text-center section-padding" id="registration">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-container">
+                <h2 class="arrow">New <span>Account</span></h2>
+                
+                <form id="signup-form">
+                  <div class="form-group">
+                    <label for="username">Create a username:</label>
+                    <input type="text" id="username" class="form-control" onblur="checkUsername()" />
+                    <div id="feedback" class="form-feedback"></div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="password">Create a password:</label>
+                    <input type="password" id="password" class="form-control" onblur="checkPassword()" />
+                    <div id="password-feedback" class="form-feedback"></div>
+                  </div>
+                  
+                  <input type="submit" class="btn-submit" value="Sign up!" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================
+      CUSTOM SPACER
+      =========================== -->
+      <div class="spacer-cta text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="index.html" class="outline-btn">Return to Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================
+      FOOTER SECTION
+      =========================== -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>All Rights Reserved. &copy; 2025 Alex Estevez</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="assets/js/event-handler.js"></script>
+</body>
+</html>
