@@ -6,116 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alex's Website - Designs</title>
 
-    <!-- Bootstrap and Theme CSS -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
 </head>
-<body id="top">
-
-    <!-- ==========================
-      HEADER SECTION 
-      =========================== -->
-      <header id="home">
-          <!-- creative menu -->
-          <div class="container-fluid">
+<body id="top" class="designs-page">
+    <header id="home">
+        <div class="container-fluid">
             <div class="row">
-              <div class="menu-wrap">
-             <!-- Static Navbar -->
-            <nav class="static-navbar">
-                <div class="nav-container">
-                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
-                        <!-- <i class="fa fa-bars"></i> -->
+                <div class="menu-wrap">
+                    <nav class="static-navbar">
+                        <div class="nav-container">
+                            <div class="mobile-menu-toggle" id="mobileMenuToggle"></div>
+                            <ul class="nav-links" id="navLinks">
+                                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                                <li><a href="aboutme.html"><i class="fa fa-user"></i>About Me</a></li>
+                                <li><a href="casestudies.html"><i class="fa fa-graduation-cap"></i>Case Studies</a></li>
+                                <li><a href="designs.html" aria-current="page"><i class="fa fa-paint-brush"></i>Designs</a></li>
+                                <li><a href="work.html"><i class="fa fa-briefcase"></i>Work</a></li>
+                                <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                    <ul class="nav-links" id="navLinks">
-                        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-                        <li><a href="aboutme.html"><i class="fa fa-user"></i>About Me</a></li>
-                        <li><a href="casestudies.html"><i class="fa fa-graduation-cap"></i>Case Studies</a></li>
-                        <li><a href="designs.html"><i class="fa fa-paint-brush"></i>Designs</a></li>
-                        <li><a href="work.html"><i class="fa fa-briefcase"></i>Work</a></li>
-                        <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-              </div>
-            </div><!--/row-->
-          </div><!--/container-->
-        
-        <!-- Header Image -->
-        <section class="hero" id="hero">
-          <div class="container">
-            <!-- HEADER HEADLINE -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-1 inner">
-                <h1 class="animated fadeInDown">
-                  My <span style="color:#E04343;">Designs</span>
-                </h1>
-                <h3 class="animated fadeInUp delay-05s"><span>What I Enjoy Doing</span></h3>
-              </div>
             </div>
-          </div>
+        </div>
+
+        <section class="hero design-hero" id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-md-offset-1 inner">
+                        <p class="design-eyebrow">Portfolio / 01</p>
+                        <h1>Design <span>work</span></h1>
+                        <h3><span>Ideas made useful</span></h3>
+                    </div>
+                </div>
+            </div>
         </section>
-      </header>
+    </header>
 
-      <!-- ==========================
-      HOBBIES SECTION  
-      =========================== -->
-      <section class="intro text-center section-padding" id="hobbies">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 wp1">
-              <h1 class="arrow">Things I <span>Enjoy</span></h1>
-              <p>Activities that keep me happy and relaxed</p>
+    <main>
+        <section class="design-intro section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p class="design-eyebrow">Selected projects</p>
+                        <h2>A home for the work behind the screens.</h2>
+                        <p class="design-intro-copy">Explore interface concepts, visual details, and the thinking behind each project. Select a project to see its goals, process, and final design.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <div class="container-fluid">
-          <div class="row color-bg">
-              <div class="col-md-8 col-md-offset-2 about-text">
-                  <div class="hobbies-container">
-                      <ul class="hobbies-list">
-                          <li><i class="fa fa-music"></i> Listening to music</li>
-                          <li><i class="fa fa-users"></i> Hanging out with friends</li>
-                          <li><i class="fa fa-heart"></i> Visiting girlfriend</li>
-                          <li><i class="fa fa-home"></i> Hanging out with family</li>
-                          <li><i class="fa fa-gamepad"></i> Playing video games</li>
-                          <li><i class="fa fa-code"></i> Programming <i>(sometimes)</i></li>
-                          <li><i class="fa fa-bed"></i> Sleeping</li>
-                          <li><i class="fa fa-clock-o"></i> Procrastinating</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <section class="design-gallery" aria-label="Design project gallery">
+            <div class="container">
+                <div class="design-gallery-heading">
+                    <div>
+                        <p class="design-eyebrow">The collection</p>
+                        <h2>Design projects <span>(01)</span></h2>
+                    </div>
+                    <p>More projects will find their place here.</p>
+                </div>
 
-      <!-- ==========================
-      CUSTOM SPACER
-      =========================== -->
-      <div class="spacer-cta text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <a href="contact.html" class="outline-btn">Want to know more? Ask me!</a>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+                        <a class="design-card" href="design-project-template.html" aria-label="Open the design project case study template">
+                            <div class="design-card-art" aria-hidden="true">
+                                <div class="art-window">
+                                    <div class="art-window-top"><span></span><span></span><span></span></div>
+                                    <div class="art-window-content">
+                                        <div class="art-sidebar"></div>
+                                        <div class="art-canvas">
+                                            <div class="art-heading"></div>
+                                            <div class="art-line"></div>
+                                            <div class="art-line short"></div>
+                                            <div class="art-blocks"><span></span><span></span><span></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="art-label">My next project</span>
+                            </div>
+                            <div class="design-card-info">
+                                <div>
+                                    <p class="design-card-category">Project template · UX / UI</p>
+                                    <h3>Project title goes here</h3>
+                                    <p>Temp placeholder card for design project(s)</p>
+                                </div>
+                                <span class="design-card-link" aria-hidden="true"><i class="fa fa-long-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+                        <div class="design-card design-card-empty" aria-label="Future design project placeholder">
+                            <div class="empty-card-mark"><i class="fa fa-plus"></i></div>
+                            <p class="design-eyebrow">A space for what's next</p>
+                            <h3>The next idea</h3>
+                            <p>Duplicate project card when I'm ready for another design.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
+        </section>
 
-      <!-- ==========================
-      FOOTER SECTION
-      =========================== -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-                <p>All Rights (not) Reserved. &copy; 2025 <a href="http://www.themewagon.com">ThemeWagon</a>
+        <section class="design-cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="design-eyebrow">Have a project in mind?</p>
+                        <h2>Reach out and let's brainstorm</h2>
+                    </div>
+                    <div class="col-md-4 design-cta-action">
+                        <a href="contact.html" class="outline-btn">Get in touch <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </footer>
+        </section>
+    </main>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>All Rights (not) Reserved. &copy; 2025 <a href="http://www.themewagon.com">ThemeWagon</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
